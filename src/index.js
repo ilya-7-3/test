@@ -16,7 +16,7 @@ export default class App  extends Component  {
     register:false
   }
 
-  componentDidMount(){
+  componentDidMount(){  
     const dataservice = new DataService();
     dataservice.getResource().then((el)=>{
       const arr = [...el.data];
