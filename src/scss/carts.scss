@@ -1,0 +1,111 @@
+.carts{
+    display: flex;
+    margin: 25px 20px 0px 20px;
+    justify-content:space-between;
+    align-items:end;
+}
+.cart{
+    width: 118px;
+    height: 151px;
+    border-radius: 5px;
+    padding:0px 0px 34px 0px;
+    text-align: center;
+    color:black;
+    background: #F3F2F9;
+    backdrop-filter: blur(9.06094px);
+    font-size: 13px;
+    font-family: 'SF Pro Text Regular';
+}
+.dark .cart{
+    background-color:#373640;
+    color:white
+}
+.active{
+    color:white;
+    background: linear-gradient(225deg, #894AC9 0%, #4D46B1 100%);
+}
+.day{
+    margin-top: 9px;
+    font-size: 24px;
+    font-family:'SF Pro Display Bold';
+}
+.month{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'SF Pro Display Bold';
+}
+.price{
+    margin-top: 12px;
+}
+.month-price{
+    margin-top: 6px;
+}
+#second{
+    height:176px;
+}
+#third{
+    height: 176px;
+}
+#third .save{
+    background: #FCA759;
+}
+.sale{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #FCBF59;
+    font-weight: bold;
+    height: 17px;
+    margin-top: 14px;
+    font-size: 9px;
+    padding-top: 3px;
+    color: black;
+    font-family:'SF Pro Display Bold';
+}
+.save{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #FCBF59;
+    font-weight: bold;
+    padding-top: 6px;
+    height: 25px;
+    font-size: 13px;
+    color: black;
+    font-family:'SF Pro Display Bold'
+}
+
+    
+.button{
+    font-family: 'SF Pro Display Italic';
+    background: linear-gradient(225deg, #542285 0%, #222266 100%);
+    border-radius: 5px;
+    border:none;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    width: 374px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 29px;
+    padding-top: 11px;
+    
+}
+.button:active{
+        background: linear-gradient(205deg, #4d2475 0%, #252580 80%);
+}
+.recurring{
+    margin-top: 20px;
+    font-family: 'SF Pro Display Italic';
+    font-size: 11px;
+    color: #000000;
+    opacity: 0.4;
+    text-align: center;
+}
+.line{
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 8px;
+    width: 134px;
+    height: 5px;
+    background: #000000;
+    border-radius: 100px;
+}
